@@ -1,1 +1,1 @@
-# delete-windows-temp-files
+# Script para limpar arquivos temporários do windows
