@@ -11,5 +11,8 @@ FOR /D %%p IN ("%USERPROFILE%\AppData\Local\Temp\*.*") DO rmdir "%%p" /s /q
 
 del /q "C:\Windows\Prefetch\*"
 FOR /D %%p IN ("C:\Windows\Prefetch\*.*") DO rmdir "%%p" /s /q
+
+del /q "C:\Windows\SoftwareDistribution\Download\*"
+FOR /D %%p IN ("C:\Windows\SoftwareDistribution\Download\*.*") DO rmdir "%%p" /s /q
 echo "Limpeza concluida!"
 pause
